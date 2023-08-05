@@ -15,7 +15,7 @@ int main(){
     int n;
     cin>>n;
     
-    cout<<power(n);
+    cout<<"2 power "<<n<<" is "<<power(n);
 
     return 0;
 }
