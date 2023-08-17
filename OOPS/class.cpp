@@ -3,14 +3,19 @@ using namespace std;
 
 class Hero{
     //properties
-
+    public:
     int health;
+    char level; 
 };
 
 int main(){
 
-    Hero h1;
+    Hero ram;
+    ram.health = 520;
+    ram.level = 'L';
 
-    cout<<"size is "<<sizeof(h1);
+    cout<<"health is "<<ram.health<<endl;
+    cout<<"level is "<<ram.level<<endl;
+
     return 0;
 }
